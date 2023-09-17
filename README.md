@@ -59,7 +59,7 @@ Your student is comprised of the following information:
 
 ## ❖・Due・❖
 
-Friday, 25 September 2023, at 10:00 PM.
+Monday, 25 September 2023, at 10:00 PM.
 
 ## ❖・Grading・❖
 
