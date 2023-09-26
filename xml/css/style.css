@@ -1,0 +1,112 @@
+
+students {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+student {
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+student::before {
+    content: "Student ID: " attr(id);
+    font-weight: bold;
+    display: block;
+    color: #2b8d05;
+}
+
+/* Element Styles */
+firstName, 
+middleName, 
+lastName, 
+preferredName, 
+email, 
+phone, 
+yearStatus, 
+gpa, 
+major, 
+minor, 
+enrollmentStatus, 
+advisor, 
+initialEnrollmentDate, 
+graduationDate {
+    display: block;
+    margin: 0.5em 0;
+}
+
+firstName::before {
+    content: "First Name: ";
+    font-weight: bold;
+}
+
+middleName::before {
+    content: "Middle Name: ";
+    font-weight: bold;
+}
+
+lastName::before {
+    content: "Last Name: ";
+    font-weight: bold;
+}
+
+preferredName::before {
+    content: "Preferred Name: ";
+    font-weight: bold;
+}
+
+email::before {
+    content: "Email: ";
+    font-weight: bold;
+}
+
+phone::before {
+    content: "Phone: ";
+    font-weight: bold;
+}
+
+yearStatus::before {
+    content: "Year Status: ";
+    font-weight: bold;
+}
+
+gpa::before {
+    content: "GPA: ";
+    font-weight: bold;
+}
+
+major::before {
+    content: "Major: ";
+    font-weight: bold;
+}
+
+minor::before {
+    content: "Minor: ";
+    font-weight: bold;
+}
+
+enrollmentStatus::before {
+    content: "Enrollment Status: ";
+    font-weight: bold;
+}
+
+advisor::before {
+    content: "Advisor: ";
+    font-weight: bold;
+}
+
+initialEnrollmentDate::before {
+    content: "Initial Enrollment Date: ";
+    font-weight: bold;
+}
+
+graduationDate::before {
+    content: "Graduation Date: ";
+    font-weight: bold;
+}

@@ -1,0 +1,23 @@
+<!-- Root element which can contain multiple student elements -->
+<!ELEMENT students (student+)>
+
+<!-- Student element with an ID attribute and multiple child elements -->
+<!ELEMENT student (firstName, middleName, lastName, preferredName, studentID, email, phone, yearStatus, gpa, major, minor, enrollmentStatus, advisor, initialEnrollmentDate, graduationDate)>
+<!ATTLIST student id ID #REQUIRED>
+
+<!-- Define the individual elements within a student -->
+<!ELEMENT firstName (#PCDATA)>
+<!ELEMENT middleName (#PCDATA)>
+<!ELEMENT lastName (#PCDATA)>
+<!ELEMENT preferredName (#PCDATA)>
+<!ELEMENT studentID (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT yearStatus (#PCDATA)>
+<!ELEMENT gpa (#PCDATA)>
+<!ELEMENT major (#PCDATA)>
+<!ELEMENT minor (#PCDATA)>
+<!ELEMENT enrollmentStatus (#PCDATA)>
+<!ELEMENT advisor (#PCDATA)>
+<!ELEMENT initialEnrollmentDate (#PCDATA)>
+<!ELEMENT graduationDate (#PCDATA)>
